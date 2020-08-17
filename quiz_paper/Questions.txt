@@ -1,0 +1,202 @@
+1.A constructor that accepts __________ parameters is called the default constructor.
+
+A.	one
+B.	two
+C.	no
+D.	three
+
+	Answer: Option C
+
+2.What happens when a class with parameterized constructors and having no default constructor is used in a program and we create an object that needs a zero-argument constructor?
+
+A.	Compile-time error.
+B.	Preprocessing error.
+C.	Runtime error.
+D.	Runtime exception.
+
+	Answer: Option A
+
+3.Destructor has the same name as the constructor and it is preceded by ______ .
+
+A.	!
+B.	?
+C.	~
+D.	$
+	
+	Answer: Option C
+
+4. For automatic objects, constructors and destructors are called each time the objects
+
+A.	enter and leave scope
+B.	inherit parent class
+C.	are constructed
+D.	are destroyed
+	
+	Answer: Option A
+
+5. Which constructor function is designed to copy objects of the same class type?
+
+A.	Create constructor
+B.	Object constructor
+C.	Dynamic constructor
+D.	Copy constructor
+	
+	Answer: Option D
+
+6. You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this objective?
+
+A.	public
+B.	private
+C.	protected
+D.	transient
+
+	Answer: Option C
+
+7. 	
+	public class Outer 
+	{ 
+		public void someOuterMethod() 
+		{
+        	//Line 5 
+    		} 
+  	  	public class Inner { } 
+    
+    		public static void main(String[] argv) 
+    		{
+    		    	Outer ot = new Outer(); 
+    	    		//Line 10
+    		} 
+	} 
+
+Which of the following code fragments inserted, will allow to compile?
+
+A.	new Inner(); //At line 5
+B.	new Inner(); //At line 10
+C.	new ot.Inner(); //At line 10
+D.	new Outer.Inner(); //At line 10
+	
+	Answer: Option A
+
+8. 	
+	public class Test { }
+
+What is the prototype of the default constructor?
+A.	Test( )
+B.	Test(void)
+C.	public Test( )
+D.	public Test(void)
+	
+	Answer: Option C
+
+9. You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?
+
+A.	public
+B.	private
+C.	protected
+D.	default access
+
+	Answer: Option D
+
+10. What is the widest valid returnType for methodA in line 3?
+
+	public class ReturnIt 
+	{ 
+	    returnType methodA(byte x, double y) /* Line 3 */
+	    { 
+	        return (long)x / y * 2; 
+	    } 
+	}
+
+A.	int
+B.	byte
+C.	long
+D.	double
+
+	Answer: Option D
+
+
+				DBMS
+1.The SQL command to create a table is:
+
+A.	MAKE TABLE.
+B.	ALTER TABLE.
+C.	DEFINE TABLE.
+D.	CREATE TABLE.
+	
+	Answer: Option D
+
+2.A ________ is a stored program that is attached to a table or a view.
+
+A.	pseudofile
+B.	embedded SELECT statement
+C.	trigger
+D.	None of the above is correct.
+
+	Answer: Option C
+
+3.The DROP TABLE statement:
+
+A.	deletes the table structure only.
+B.	deletes the table structure along with the table data.
+C.	works whether or not referential integrity constraints would be violated.
+D.	is not an SQL statement.
+	
+	Answer: Option B
+
+4.SQL views can be used to hide:
+
+A.	columns and rows only.
+B.	complicated SQL syntax only.
+C.	both of the above can be hidden by an SQL view.
+D.	None of the above is correct.
+	
+	Answer: Option C
+
+5.The SQL statement to create a view is:
+
+A.	CREATE VIEW.
+B.	MAKE VIEW.
+C.	SELECT VIEW.
+D.	INSERT VIEW.
+	
+	Answer: Option A
+
+6.A relational database consists of a collection of
+A. Tables 
+B. Fields 
+C. Records 
+D. Keys
+
+	Answer: Option A
+
+7.A ________ in a table represents a relationship among a set of values.
+A. Column 
+B. Key 
+C. Row 
+D. Entry
+
+	Answer: Option C
+
+8.The term _______ is used to refer to a row.
+A. Attribute 
+B. Tuple 
+C. Field 
+D. Instance
+
+	Answer: Option B
+
+9.The term attribute refers to a ___________ of a table.
+A. Record 
+B. Column 
+C. Tuple 
+D. Key
+
+	Answer: Option B
+
+10.For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+A. Domain 
+B. Relation 
+C. Set 
+D. Schema
+
+	Answer: Option A

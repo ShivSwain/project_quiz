@@ -1,0 +1,90 @@
+body
+{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+
+}
+.img-box
+{
+	background-image:url('../images/back-img.jpg');
+	background-size:100%;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+div.container
+{
+	width:100%;
+	height: auto;
+	/*border: 1px solid black;*/
+
+}
+div.wrapper
+{
+	width:1100px;
+	height: auto;
+	border: 1px solid black;
+	margin: auto;
+}
+div.banner-outer
+{
+	border:1px solid red; 
+	height: 550px;
+	width: 1100px;
+	overflow:hidden;
+}
+div.banner-slider
+{
+	border:1px solid black;
+	width:3300px;
+	height: 500px;
+	animation:slider 10s linear infinite;
+}
+
+@keyframes slider
+{
+	0%{margin-left:0px;	}
+	30%{margin-left:0px;	}
+	33%{margin-left:-1100px;	}
+	63%{margin-left:-1100px;	}
+	66%{margin-left:-2200px;	}
+	97%{margin-left:-2200px;	}
+	100%{margin-left:0px;	}
+}
+
+
+div.slider-image
+{
+	height:550px;
+	width:1100px;
+	float: right;
+}
+/*-------------- Header --------------*/
+
+
+/*-----------------  Login Cont ----------------*/
+
+div.login-cont
+{
+	background: rgb(0,137,52);
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	color:rgb(255,210,0);
+	padding: 20px 0px;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+

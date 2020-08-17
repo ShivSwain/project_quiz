@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jhdh</title>
+</head>
+<body>
+	<div style="background-color: red; width: 100px; height: 70px; font-size: 50px; padding: 0px 10px; margin: auto;">
+<span id="countdown" class="timer"></span>
+<script>
+var seconds = 15;
+function secondPassed() {
+    var minutes = Math.round((seconds - 30)/60);
+    var remainingSeconds = seconds % 15;
+    if (remainingSeconds < 10) {
+        remainingSeconds = "0" + remainingSeconds;  
+    }
+    document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+    if (seconds == 0) 
+    {
+        clearInterval(countdownTimer);
+        document.getElementById('countdown').questions2.php;
+    } else {
+        seconds--;
+    }
+}
+ 
+var countdownTimer = setInterval('secondPassed()', 1000);
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+/*-------------- Header --------------*/
+div.header
+{
+	height: 100px;
+	width:100%;
+	border: 1px solid black;
+}
+div.logo-cont
+{
+	height: 80px;
+	width:170px;
+	float: left;
+}
+div.header-menu-cont
+{
+	height: 40px;
+	width: 800px;
+	float: right;
+	padding:30px 0px;
+}
+span.header-menu-items
+{
+	color: black;
+	margin: 0px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+}
+span.header-menu-items a:hover
+{
+	color:rgb(255,115,0);
+	transition: .5s;
+}
+button.login-btn
+{
+	background: rgb(244,244,240);
+	color: black;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	transition: .4s;
+	cursor: pointer;
+}
+button.login-btn:hover
+{
+	background: rgb(238,217,166);
+}

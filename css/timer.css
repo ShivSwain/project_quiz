@@ -1,0 +1,20 @@
+ .game-grid::after 
+ {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (min-width: 860px)
+   {
+      .game-left-col 
+      {
+        width: 33%;
+        float: left;
+        margin-right: 3%;
+      }
+     .game-right-col
+     {
+       width: 64%;
+       float: left;
+     }
+   }
